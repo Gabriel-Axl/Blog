@@ -2,7 +2,6 @@
     display: flex;
     margin-bottom: 2.5rem;
     margin-right: 1rem;
-    border: 1px solid rgba(255, 255, 255, 0.051);
     width: 40rem;
 }
 .img-aux-card{
@@ -20,4 +19,7 @@
 }
 .title-aux-card > h1{
     font-size: 1.5rem;
+}
+a{
+    text-decoration: none;
 }
