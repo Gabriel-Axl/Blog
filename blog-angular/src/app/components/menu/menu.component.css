@@ -1,0 +1,53 @@
+.menu-container{
+    display: flex;
+    justify-content: space-between;
+}
+.menu-btns{
+    display: flex;
+    list-style: none;
+    margin-right: 5rem;
+}
+.menu-btn > a{
+    text-decoration: none;
+    display: block;
+    padding: 1rem;
+    font-weight: bold;
+    margin-left: 0.5rem;
+}
+
+.menu-home-btn > a{
+    text-decoration: none;
+    display: block;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.menu-home-btn > a:hover{
+    background: #ffffff71;
+}
+
+.menu-btn > a:hover{
+    background: #cccccc3c;
+}
+.logo-menu{
+    position: relative;
+}
+.logo-menu > img{
+    height: 53px;
+    margin-left: 2rem;
+}
+.logo-menu > p{
+    position: absolute;
+    top: 16px;
+    right: 0;
+    background: none;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.logo-menu > p {
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(246, 8, 8),rgb(245, 245, 245), rgb(245, 245, 245));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

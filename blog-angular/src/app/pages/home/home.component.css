@@ -1,0 +1,17 @@
+#article-container{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+#main-article{
+    margin-right: 1rem;
+}
+#other-article{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+body{
+    max-width: 100%;
+    max-height: 100vh;
+}
