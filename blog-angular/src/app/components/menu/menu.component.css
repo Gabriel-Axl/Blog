@@ -1,14 +1,17 @@
 .menu-container{
     display: flex;
     justify-content: space-between;
+    background-image: linear-gradient(to bottom, transparent 0%, #000000 50%), url(https://1.bp.blogspot.com/-vk2zbpE5XZA/Xu99BEfAodI/AAAAAAAADbw/_0F9DwnsDOIks3mCgdrv7VlxZ8mplKCvwCK4BGAsYHg/s1920/wallapaper%2Bvalorant%2B04.png);
 }
 .menu-btns{
+    background: transparent;
     display: flex;
     list-style: none;
     margin-right: 5rem;
 }
 .menu-btn > a{
     text-decoration: none;
+    background-image: linear-gradient(to bottom, transparent 0%, #000000 50%), url(https://1.bp.blogspot.com/-vk2zbpE5XZA/Xu99BEfAodI/AAAAAAAADbw/_0F9DwnsDOIks3mCgdrv7VlxZ8mplKCvwCK4BGAsYHg/s1920/wallapaper%2Bvalorant%2B04.png);
     display: block;
     padding: 1rem;
     font-weight: bold;
@@ -20,6 +23,7 @@
     display: block;
     padding: 1rem;
     font-weight: bold;
+    background-image: linear-gradient(to bottom, transparent 0%, #000000 50%), url(https://1.bp.blogspot.com/-vk2zbpE5XZA/Xu99BEfAodI/AAAAAAAADbw/_0F9DwnsDOIks3mCgdrv7VlxZ8mplKCvwCK4BGAsYHg/s1920/wallapaper%2Bvalorant%2B04.png);
 }
 
 .menu-home-btn > a:hover{
