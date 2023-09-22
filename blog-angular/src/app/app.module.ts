@@ -8,6 +8,9 @@ import { MenuTitleComponent } from './components/menu-title/menu-title.component
 import { MainCardComponent } from './components/main-card/main-card.component';
 import { AuxCardComponent } from './components/aux-card/aux-card.component';
 import { HomeComponent } from './pages/home/home.component';
+import { ContentComponent } from './pages/content/content.component';
+import { SidecardComponent } from './components/sidecard/sidecard.component';
+import { MicroCardComponent } from './components/micro-card/micro-card.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { HomeComponent } from './pages/home/home.component';
     MenuTitleComponent,
     MainCardComponent,
     AuxCardComponent,
-    HomeComponent
+    HomeComponent,
+    ContentComponent,
+    SidecardComponent,
+    MicroCardComponent
   ],
   imports: [
     BrowserModule,

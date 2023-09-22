@@ -1,14 +1,17 @@
-<a href="">
-    <div class="aux-card-container">
+<a href="./content">
+    <div class="aux-card-container"
+    [ngStyle]="{'width':cardSize}"
+    >
         <div class="img-aux-card">
             <img src="{{img}}" 
-            height="150px"
+            [ngStyle]="getImgStyle()"
             alt="" 
             srcset=""
             >
         </div>
-        <div class="title-aux-card">
-            <h1>{{title}} </h1>
+        <div class="title-aux-card" [ngStyle]="{'background-color':backColor}"
+        >
+            <h1 [ngStyle]="{'font-size':titleSize, 'background-color':backColor}">{{title}} </h1>
         </div>
     </div>
 </a>
