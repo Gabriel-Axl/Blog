@@ -12,7 +12,9 @@ export class MainCardComponent implements OnInit {
   title:string=""
   @Input()
   content:string=""
-  
+  @Input()
+  id:string ="0"
+
   constructor() { }
 
   ngOnInit(): void {

@@ -14,6 +14,8 @@ export class AuxCardComponent implements OnInit {
   @Input() titleSize:string = "1.5rem"  
   @Input() cardSize:string = "40rem"
   @Input() backColor:string = ""
+  @Input() id:string = "0"
+  @Input() url1:string = "content"
 
 
   constructor() { }

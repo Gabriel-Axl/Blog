@@ -20,6 +20,10 @@
     font-size: 2rem;
     padding-bottom: 1rem;
 }
+#content-img{
+    display: flex;
+    justify-content: center;
+}
 #content-img>img{
     max-width: 100%;
     min-width: 69rem;
@@ -43,7 +47,7 @@
     text-wrap: initial;
 }
 #content{
-    padding: 4rem;
+    padding: 0 4rem 4rem 4rem;
 }
 #footer{
     margin-top: 4rem;

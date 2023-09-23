@@ -1,8 +1,10 @@
-<a href=""><div class="card-container">
-    <div class="card-img">
-        <img src="https://tm.ibxk.com.br/2023/09/21/21160050301251.jpg?ims=1120x420" alt="">
+<a [routerLink]="['../', id]">
+    <div class="card-container">
+        <div class="card-img">
+            <img src="{{ img }}" alt="">
+        </div>
+        <div class="card-title">
+            <p>{{ title }}</p>
+        </div>
     </div>
-    <div class="card-title">
-        <p>Realidade violada</p>
-    </div>
-</div></a>
+</a>
